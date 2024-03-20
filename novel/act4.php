@@ -1,0 +1,43 @@
+<?php include '../php/top_of_page.php';
+$act = 4;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/novel.css">
+    <title>deVOID ||| ACT4</title>
+</head>
+<body>
+    <div class="body-container">
+        <header>
+            <?php include '../php/view_components/navbar.php';?>
+        </header>
+        <main>
+            <?php include '../php/view_components/action-bar.php';?>
+
+            <div class="comicPages">
+                <img id="PAGE27" class="page" src="..\novel\pages\PAGE27.jpg" alt="page 27"><br>
+                <img id="PAGE28" loading="lazy" class="page" src="..\novel\pages\PAGE28.jpg" alt="page 28"><br>
+                <img id="PAGE29" loading="lazy" class="page" src="..\novel\pages\PAGE29.jpg" alt="page 29"><br>
+                <img id="PAGE30" loading="lazy" class="page" src="..\novel\pages\PAGE30.jpg" alt="page 30"><br>
+                <img id="PAGE31" loading="lazy" class="page" src="..\novel\pages\PAGE31.jpg" alt="page 31"><br>
+                <img id="PAGE32" loading="lazy" class="page" src="..\novel\pages\PAGE32.jpg" alt="page 32"><br>
+                <img id="PAGE33" loading="lazy" class="page" src="..\novel\pages\PAGE33.jpg" alt="page 33"><br>
+                <img id="PAGE34" loading="lazy" class="page" src="..\novel\pages\PAGE34.jpg" alt="page 34"><br>
+                <img id="PAGE35" loading="lazy" class="page" src="..\novel\pages\PAGE35.jpg" alt="page 35"><br>
+                <img id="PAGE36" loading="lazy" class="page" src="..\novel\pages\PAGE36.jpg" alt="page 36"><br>
+                <img id="PAGE37" loading="lazy" class="page" src="..\novel\pages\PAGE37.jpg" alt="page 37"><br>
+                <img id="PAGE38" loading="lazy" class="page" src="..\novel\pages\PAGE38.jpg" alt="page 38"><br>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
