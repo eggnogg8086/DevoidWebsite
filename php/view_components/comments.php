@@ -1,10 +1,10 @@
-<a class="share-button" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SESSION['lastPage'];?>" target="_blank" rel="noopener noreferrer">
+<!-- <a class="share-button" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SESSION['lastPage'];?>" target="_blank" rel="noopener noreferrer">
     <img src="../images/Facebook.svg" alt="Share on Facebook">
 </a>
 
 <a class="share-button" href="https://twitter.com/intent/tweet?url=<?php echo $_SESSION['lastPage'];?>" target="_blank" rel="noopener noreferrer">
     <img src="../images/Twitter.svg" alt="Share on X">
-</a>
+</a> -->
 
 <div id="disqus_thread"></div>
 <script>

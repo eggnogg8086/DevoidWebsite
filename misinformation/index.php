@@ -8,25 +8,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/articles.css">
     <link rel="stylesheet" href="../css/misinformation.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <style>
+        header{
+            background: url(../images/coverMisinfo.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
     <title>Misinformation</title>
 </head>
+<?php include '../php/analytics.php';?>
 <body>
-    <div class="body-container">
-        <header>
-        <?php include '../php/view_components/navbar.php';?>
+    <header>
+    <?php include '../php/view_components/navbar.php';?>
+    <large-banner>MISINFORMATION DURING<br>THE 2022 ELECTIONS: A GIST</large-banner>
+    <div class="first-paragraph">
+        Fake news is not an entirely new concept, especially when it comes to political matters.
+        Given the state of the Philippines and its history with elections, it is increasingly so that misinformation prevails,and even now with troll farms 
+        being incentivized to create fake news campaigns on social media, it continued a culture of dismissing the integrity of not only the elections, but Facebook’s
+        accountability towards the spread of misinformation.
+    </div>
 
-        </header>
-        <main>
-            <div class="misinformationMain">
-                <p>
-                    Fake news is not an entirely new concept, especially when it comes to political matters.
-                    Given the state of the Philippines and its history with elections, it is increasingly so that misinformation prevails,and even now with troll farms 
-                    being incentivized to create fake news campaigns on social media, it continued a culture of dismissing the integrity of not only the elections, but Facebook’s
-                    accountability towards the spread of misinformation.
-                </p>
-            </div>
+    </header>
+    <main>
+    <div class="body-container">
+
             <div class="main-container">
                 <div class="misinformationDisinfo">
                     <p>Disinformation is deliberately spreading false information for an agenda. Misinformation, more often than not, arises from the lack of awareness of information.</p>

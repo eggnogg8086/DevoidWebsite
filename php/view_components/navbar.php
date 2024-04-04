@@ -1,18 +1,26 @@
 <div class="navigation">
     <a class="devoidLogoLINK" href="/iteration2/"><img class="devoidLogo" src="../images/devoidLogo.svg" alt="devoidLogo"></a>
     <nav>
-        <ul class="navbar">
-            <li class="navbar-item"><a href="/iteration2/">Home</a></li>
-            <li class="navbar-item"><a href="/iteration2/misinformation/">Misinformation</a></li>
-            <li class="navbar-item"><a href="/iteration2/novel/act1">Novel</a></li>                    
-        </ul>
+        <nav-item class="dropdown-container">
+            <dropdown>
+                <a href="../mirror/">THE VOID AS THE MIRROR TO REALITY</a>
+                <a href="../misinformation/">MISINFORMATION DURING THE 2022 ELECTIONS: A GIST</a>
+                <a href="../future/">FOR FUTURE VOTERS</a>
+            </dropdown>
+            <a href="#">
+                articles
+            </a>
+        </nav-item>
+        <nav-item>
+            <a href="/iteration2/">Home</a>
+        </nav-item>
+        <nav-item class="dropdown-container" class="dropdown-container">
+            <dropdown>
+                <a href="../novel/act1">READ</a>
+                <a href="">SUMMARY</a>
+                <a href="">CHARACTERS</a>
+            </dropdown>
+            <a href="#">Novel</a>
+        </nav-item>                    
     </nav>
-    
-    <nav-alt>
-        <ul class="navbar-alt">
-            <li class="navbar-item"><a href="/iteration2/">Home</a></li>
-            <li class="navbar-item"><a href="/iteration2/misinformation/">Misinformation</a></li>
-            <li class="navbar-item"><a href="/iteration2/novel/act1">Novel</a></li>                    
-        </ul>
-    </nav-alt>
 </div>

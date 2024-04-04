@@ -12,8 +12,10 @@ $act = 1;
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/novel.css">
+    <link rel="stylesheet" href="../css/navbar.css">
     <title>deVOID ||| ACT1</title>
 </head>
+<?php include '../php/analytics.php';?>
 <body>
     <div class="body-container">
         <header>

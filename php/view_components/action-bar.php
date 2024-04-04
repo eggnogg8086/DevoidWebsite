@@ -1,27 +1,50 @@
-<action-bar id="action-bar">        
-    <banner>NOW READING</banner>
-    <page-selector>
-        <a href="<?php if($act > 1) echo "act".($act-1);?>"> <img class="novelNavBtn" src="../images/prevActBtn.svg" alt="prevAct"></a>
-        <div onclick="previousPage()">
-            <img class="novelNavBtn" src="../images/prevPageBtn.svg" alt="prevPage" >
-        </div>
-        <select id="actnumber" onchange="selectAct(true)">
-            <option value="a1" <?php if($act == 1) echo "selected"?>>ACT 1</option>
-            <option value="a2" <?php if($act == 2) echo "selected"?>>ACT 2</option>
-            <option value="a3" <?php if($act == 3) echo "selected"?>>ACT 3</option>
-            <option value="a4" <?php if($act == 4) echo "selected"?>>ACT 4</option>
-        </select>
-        <select id="pagenumber" onchange="selectPage()">
-        </select>
-        <div onclick="nextPage()">
-            <img class="novelNavBtn" src="../images/nextPageBtn.svg" alt="nextPage">
-        </div>
-        <a href="<?php if($act < 4) echo "act".($act+1);?>"> <img class="novelNavBtn" src="../images/nextActBtn.svg" alt="nextAct"></a>
-    </page-selector>
-    <?php include '../php/view_components/comments.php';?>
+
+<action-bar id="action-bar">   
+    <handle>
+        <button onclick="toggleComments()" id="showCommentsButton" style="grid-column: 2;">see comments</button>     
+        <button onclick="toggleActionBar()" id="showActionBar" style="grid-column: 3;">hide</button>     
+    </handle>
+
+    <container id="container">
+        <banner>NOW READING</banner>
+        <page-selector>
+            <a href="<?php if($act > 1) echo "act".($act-1);?>"> <img class="novelNavBtn" src="../images/prevActBtn.svg" alt="prevAct"></a>
+            <div onclick="previousPage()">
+                <img class="novelNavBtn" src="../images/prevPageBtn.svg" alt="prevPage" >
+            </div>
+            <select title="act" id="actnumber" onchange="selectAct(true)">
+                <option value="a1" <?php if($act == 1) echo "selected"?>>ACT 1</option>
+                <option value="a2" <?php if($act == 2) echo "selected"?>>ACT 2</option>
+                <option value="a3" <?php if($act == 3) echo "selected"?>>ACT 3</option>
+                <option value="a4" <?php if($act == 4) echo "selected"?>>ACT 4</option>
+            </select>
+            <select title="page" id="pagenumber" onchange="selectPage()">
+            </select>
+            <div onclick="nextPage()">
+                <img class="novelNavBtn" src="../images/nextPageBtn.svg" alt="nextPage">
+            </div>
+            <a href="<?php if($act < 4) echo "act".($act+1);?>"> <img class="novelNavBtn" src="../images/nextActBtn.svg" alt="nextAct"></a>
+        </page-selector>
+        <?php include '../php/view_components/comments.php';?>
+    </container>
+
 </action-bar>
 
 <script>
+    const orientation = window.matchMedia("(orientation: portrait)")
+
+    const ActionBarState = Object.freeze({
+        open: 0,
+        closed: 1,
+        hidden: 2
+    })
+    let currentState = ActionBarState.closed;
+
+    const box = document.getElementById('action-bar');
+    const container = document.getElementById('container');
+    const showCommentsButton = document.getElementById('showCommentsButton');
+    const showActionBarButton = document.getElementById('showActionBar');
+
     selectAct(false);
 
     function selectAct(redirect){
@@ -54,74 +77,91 @@
                 break;
         }
     }
-
-    function selectPage(){
+    function selectPage(index){
         const val = document.getElementById("pagenumber").value;
         document.querySelector('#'+val).scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
+            block: 'center'
         });
     }
-
     function previousPage(){
         var selectElement = document.getElementById("pagenumber");
-        console.log(selectElement.selectedIndex);
-        console.log(selectElement.options.length);
-        
+
         if(selectElement.selectedIndex > 0) {
             selectElement.selectedIndex -= 1;
-            selectPage();
+            selectPage(selectElement.selectedIndex);
         }
-    }
-    
+    }    
     function nextPage(){
         var selectElement = document.getElementById("pagenumber");
-        console.log(selectElement.selectedIndex);
-        console.log(selectElement.options.length);
         
         if(selectElement.selectedIndex < selectElement.options.length - 1) {
             selectElement.selectedIndex += 1;
-            selectPage();
+            selectPage(selectElement.selectedIndex);
         }
     }
 
+    function toggleComments(){
+        switch (currentState) {
+            case ActionBarState.open:
+                showCommentsButton.textContent = "see comments";
+                
+                box.style.bottom = "";
+                currentState = ActionBarState.closed;
+                break;
+            case ActionBarState.closed:
+                showCommentsButton.textContent = "hide comments";
 
-    var box = document.getElementById('action-bar');
-  
-    // box.addEventListener('touchstart', function(e) {
-    //     start = e.targetTouches[0].pageY;
-    // })
-    console.log(window.innerHeight)
-    
-    box.addEventListener('touchmove', function(e) {
-        event.preventDefault();
-        box.style.bottom = window.innerHeight - event.touches[0].clientY - box.clientHeight  + "px";
-    });
-    
-    box.addEventListener('touchend', function(e) {
-        const viewportHeight = window.innerHeight;
-        const fiftyVhInPixels = viewportHeight * 0.5; // 50vh is half of viewport height
-
-        // Step 2: Multiply 50vh by -1
-        const negativeFiftyVhInPixels = fiftyVhInPixels * -1;
-
-        // Step 3: Convert -4.8rem to pixels
-        const rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize); // Get root em size
-        const negativeFourPointEightRemInPixels = -4.8 * rootFontSize;
-
-        // Calculate the final result
-        const finalResult = negativeFiftyVhInPixels - negativeFourPointEightRemInPixels;
-
-
-        console.log(finalResult);
-
-        if(box.style.bottom.slice(0, -2) > 0)
-            box.style.bottom = "0px";
-        else if(box.style.bottom.slice(0, -2) < finalResult)
-            box.style.bottom = finalResult+"px";
-    })
-
-    function getPos(el) {
-        var rect=el.getBoundingClientRect();
-        return {x:rect.left,y:rect.top};
+                box.style.bottom = "0px";
+                currentState = ActionBarState.open;
+                break;
+            case ActionBarState.hidden:
+                break;
+        
+            default:
+                break;
+        }
     }
+
+    function toggleActionBar(){
+        switch (currentState) {
+            case ActionBarState.open:
+                currentState = ActionBarState.hidden;
+                showCommentsButton.textContent = "see comments";
+                showActionBarButton.textContent = "show"
+                showCommentsButton.style.display = 'none';
+                container.style.opacity = "0%";
+                box.style.bottom = "var(--action-bar-bottom-offset-hidden)";
+                break;
+            case ActionBarState.closed:
+                currentState = ActionBarState.hidden;                           
+                showActionBarButton.textContent = "show"
+                showCommentsButton.style.display = 'none';
+                container.style.opacity = "0%";
+                box.style.bottom = "var(--action-bar-bottom-offset-hidden)";
+                break;
+            case ActionBarState.hidden:
+                currentState = ActionBarState.closed;
+                
+                
+                showActionBarButton.textContent = "hide"
+                showCommentsButton.style.display = '';
+                container.style.opacity = "";
+                box.style.bottom = "";
+                break;
+        
+            default:
+                break;
+        }
+    }
+
+    orientation.addEventListener("change", function() {
+        if(orientation.matches){
+            if(currentState == ActionBarState.hidden)
+                container.style.opacity = "0%";
+        }
+        else{
+            container.style.opacity = "";
+        }
+    });
 </script>
