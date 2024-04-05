@@ -2,6 +2,8 @@
     --highlighted: #44c0e2;
     --background: #383957c2;
     --dropdown-item-border-radius: 1rem;
+    --navigation-padding-value: 3rem;
+    --navigation-padding: var(--navigation-padding-value) 0;
 }
 
 .devoidLogoLINK{
@@ -109,7 +111,7 @@ dropdown a:last-child{
 }
 
 .navigation{
-    padding: 3rem 0;
+    padding: var(--navigation-padding);
     width: auto;
     display: grid;
     align-items: center;

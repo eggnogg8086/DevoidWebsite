@@ -21,7 +21,13 @@
             background-position: center center;
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: 65%;
+        }
+
+        @media screen and (max-width: 35rem) {
+            header{
+                background-position: 75%;
+            }
         }
     </style>
     <title>Misinformation</title>
