@@ -118,7 +118,7 @@ dropdown a:last-child{
     grid-template-columns: 1fr min-content;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 60rem), (orientation: portrait) {
     .navigation{
         gap: 1rem;
         grid-template-rows: min-content min-content;
