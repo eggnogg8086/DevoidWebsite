@@ -54,25 +54,19 @@
 
             <p>Here are ways you can navigate social media and do your part in lessening the spread of misinformation:</p>
 
-                    <h3>
-                        Share Reliable Sources:
-                    </h3>
-                    Share content from credible and reputable sources to counteract misinformation. Encourage your followers to rely on trusted news outlets and fact-checking organizations.
+            <list>
+                <h3>Share Reliable Sources</h3>
+                Share content from credible and reputable sources to counteract misinformation. Encourage your followers to rely on trusted news outlets and fact-checking organizations.
+                
+                <h3>Educate Others</h3>
+                Use your platform to educate others about media literacy and critical thinking skills. Share tips and resources on how to spot misinformation and verify information before sharing it.
+                <p>This is a good post to start with.</p>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmediacommoner%2Fposts%2Fpfbid0wHeJjowp2vKrgXYZQSHffoddjbAfk5BaCzDbtHaqoRcqmidvKPCV1YHh6e2LBFCvl&show_text=true&width=auto" 
+                    frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     
-                    <h3>
-                        Educate Others:
-                    </h3>
-                    Use your platform to educate others about media literacy and critical thinking skills. Share tips and resources on how to spot misinformation and verify information before sharing it.
-                    
-                    This is a good post to start with.
-                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmediacommoner%2Fposts%2Fpfbid0wHeJjowp2vKrgXYZQSHffoddjbAfk5BaCzDbtHaqoRcqmidvKPCV1YHh6e2LBFCvl&show_text=true&width=auto" 
-                        frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        
-                        
-                    <h3>
-                        Talk, Constructively:
-                    </h3>
-                    Engage in constructive discussions and debates on social media. Avoid spreading rumors or unverified information, and encourage respectful dialogue among your followers.
+                <h3>Talk, Constructively</h3>
+                Engage in constructive discussions and debates on social media. Avoid spreading rumors or unverified information, and encourage respectful dialogue among your followers.
+            </list>
 
             <p>Your truth should not just be what is right to you, but for the people around you. Continue to open yourself to what’s happening in the country. Remember history and think about what we can do to prevent it. Think about the people that struggle to eat, to commute, and simply live.</p>
 
