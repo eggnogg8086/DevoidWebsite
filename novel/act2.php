@@ -25,16 +25,16 @@ $act = 2;
             <?php include '../php/view_components/action-bar.php';?>
 
             <div class="comicPages">
-                <img id="PAGE11" class="page" src="..\novel\pages\PAGE11.jpg" alt="page 11"><br>
-                <img id="PAGE12" loading="lazy" class="page" src="..\novel\pages\PAGE12.jpg" alt="page 12"><br>
-                <img id="PAGE13" loading="lazy" class="page" src="..\novel\pages\PAGE13.jpg" alt="page 13"><br>
-                <img id="PAGE14" loading="lazy" class="page" src="..\novel\pages\PAGE14.jpg" alt="page 14"><br>
-                <img id="PAGE15" loading="lazy" class="page" src="..\novel\pages\PAGE15.jpg" alt="page 15"><br>
-                <img id="PAGE16" loading="lazy" class="page" src="..\novel\pages\PAGE16.jpg" alt="page 16"><br>
-                <img id="PAGE17" loading="lazy" class="page" src="..\novel\pages\PAGE17.jpg" alt="page 17"><br>
-                <img id="PAGE18" loading="lazy" class="page" src="..\novel\pages\PAGE18.jpg" alt="page 18"><br>
-                <img id="PAGE19" loading="lazy" class="page" src="..\novel\pages\PAGE19.jpg" alt="page 19"><br>
-                <img id="PAGE20" loading="lazy" class="page" src="..\novel\pages\PAGE20.jpg" alt="page 20"><br>
+                <img id="PAGE11" class="page" src="..\novel\pages\PAGE11.jpg" alt="page 11">
+                <img id="PAGE12" loading="lazy" class="page" src="..\novel\pages\PAGE12.jpg" alt="page 12">
+                <img id="PAGE13" loading="lazy" class="page" src="..\novel\pages\PAGE13.jpg" alt="page 13">
+                <img id="PAGE14" loading="lazy" class="page" src="..\novel\pages\PAGE14.jpg" alt="page 14">
+                <img id="PAGE15" loading="lazy" class="page" src="..\novel\pages\PAGE15.jpg" alt="page 15">
+                <img id="PAGE16" loading="lazy" class="page" src="..\novel\pages\PAGE16.jpg" alt="page 16">
+                <img id="PAGE17" loading="lazy" class="page" src="..\novel\pages\PAGE17.jpg" alt="page 17">
+                <img id="PAGE18" loading="lazy" class="page" src="..\novel\pages\PAGE18.jpg" alt="page 18">
+                <img id="PAGE19" loading="lazy" class="page" src="..\novel\pages\PAGE19.jpg" alt="page 19">
+                <img id="PAGE20" loading="lazy" class="page" src="..\novel\pages\PAGE20.jpg" alt="page 20">
             </div>
         </main>
     </div>

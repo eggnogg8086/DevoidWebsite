@@ -25,18 +25,18 @@ $act = 4;
             <?php include '../php/view_components/action-bar.php';?>
 
             <div class="comicPages">
-                <img id="PAGE27" class="page" src="..\novel\pages\PAGE27.jpg" alt="page 27"><br>
-                <img id="PAGE28" loading="lazy" class="page" src="..\novel\pages\PAGE28.jpg" alt="page 28"><br>
-                <img id="PAGE29" loading="lazy" class="page" src="..\novel\pages\PAGE29.jpg" alt="page 29"><br>
-                <img id="PAGE30" loading="lazy" class="page" src="..\novel\pages\PAGE30.jpg" alt="page 30"><br>
-                <img id="PAGE31" loading="lazy" class="page" src="..\novel\pages\PAGE31.jpg" alt="page 31"><br>
-                <img id="PAGE32" loading="lazy" class="page" src="..\novel\pages\PAGE32.jpg" alt="page 32"><br>
-                <img id="PAGE33" loading="lazy" class="page" src="..\novel\pages\PAGE33.jpg" alt="page 33"><br>
-                <img id="PAGE34" loading="lazy" class="page" src="..\novel\pages\PAGE34.jpg" alt="page 34"><br>
-                <img id="PAGE35" loading="lazy" class="page" src="..\novel\pages\PAGE35.jpg" alt="page 35"><br>
-                <img id="PAGE36" loading="lazy" class="page" src="..\novel\pages\PAGE36.jpg" alt="page 36"><br>
-                <img id="PAGE37" loading="lazy" class="page" src="..\novel\pages\PAGE37.jpg" alt="page 37"><br>
-                <img id="PAGE38" loading="lazy" class="page" src="..\novel\pages\PAGE38.jpg" alt="page 38"><br>
+                <img id="PAGE27" class="page" src="..\novel\pages\PAGE27.jpg" alt="page 27">
+                <img id="PAGE28" loading="lazy" class="page" src="..\novel\pages\PAGE28.jpg" alt="page 28">
+                <img id="PAGE29" loading="lazy" class="page" src="..\novel\pages\PAGE29.jpg" alt="page 29">
+                <img id="PAGE30" loading="lazy" class="page" src="..\novel\pages\PAGE30.jpg" alt="page 30">
+                <img id="PAGE31" loading="lazy" class="page" src="..\novel\pages\PAGE31.jpg" alt="page 31">
+                <img id="PAGE32" loading="lazy" class="page" src="..\novel\pages\PAGE32.jpg" alt="page 32">
+                <img id="PAGE33" loading="lazy" class="page" src="..\novel\pages\PAGE33.jpg" alt="page 33">
+                <img id="PAGE34" loading="lazy" class="page" src="..\novel\pages\PAGE34.jpg" alt="page 34">
+                <img id="PAGE35" loading="lazy" class="page" src="..\novel\pages\PAGE35.jpg" alt="page 35">
+                <img id="PAGE36" loading="lazy" class="page" src="..\novel\pages\PAGE36.jpg" alt="page 36">
+                <img id="PAGE37" loading="lazy" class="page" src="..\novel\pages\PAGE37.jpg" alt="page 37">
+                <img id="PAGE38" loading="lazy" class="page" src="..\novel\pages\PAGE38.jpg" alt="page 38">
             </div>
         </main>
     </div>

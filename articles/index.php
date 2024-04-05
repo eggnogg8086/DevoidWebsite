@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/article-list.css">
     <link rel="stylesheet" href="../css/navbar.css">
-
+    
     <title>Misinformation</title>
 </head>
 <?php include '../php/analytics.php';?>
@@ -20,7 +20,14 @@
         <?php include '../php/view_components/navbar.php';?>
     </header>
     <main>
-        <large-banner></large-banner>
+        <large-banner>ARTICLES</large-banner>
+        <card>
+            <title></title>
+            <description></description>
+            <a href="../misinformation/">
+                <button class="card-button">SEE MORE</button>
+            </a>
+        </card>
     </main>
     
 </body>

@@ -25,16 +25,16 @@ $act = 1;
             <?php include '../php/view_components/action-bar.php';?>
 
             <div class="comicPages">
-                <img id="PAGE1" class="page" src="..\novel\pages\PAGE1.jpg" alt="page 1"><br>
-                <img id="PAGE2" loading="lazy" class="page" src="..\novel\pages\PAGE2.jpg" alt="page 2"><br>
-                <img id="PAGE3" loading="lazy" class="page" src="..\novel\pages\PAGE3.jpg" alt="page 3"><br>
-                <img id="PAGE4" loading="lazy" class="page" src="..\novel\pages\PAGE4.jpg" alt="page 4"><br>
-                <img id="PAGE5" loading="lazy" class="page" src="..\novel\pages\PAGE5.jpg" alt="page 5"><br>
-                <img id="PAGE6" loading="lazy" class="page" src="..\novel\pages\PAGE6.jpg" alt="page 6"><br>
-                <img id="PAGE7" loading="lazy" class="page" src="..\novel\pages\PAGE7.jpg" alt="page 7"><br>
-                <img id="PAGE8" loading="lazy" class="page" src="..\novel\pages\PAGE8.jpg" alt="page 8"><br>
-                <img id="PAGE9" loading="lazy" class="page" src="..\novel\pages\PAGE9.jpg" alt="page 9"><br>
-                <img id="PAGE10" loading="lazy" class="page" src="..\novel\pages\PAGE10.jpg" alt="page 10"><br>
+                <img id="PAGE1" class="page" src="..\novel\pages\PAGE1.jpg" alt="page 1">
+                <img id="PAGE2" loading="lazy" class="page" src="..\novel\pages\PAGE2.jpg" alt="page 2">
+                <img id="PAGE3" loading="lazy" class="page" src="..\novel\pages\PAGE3.jpg" alt="page 3">
+                <img id="PAGE4" loading="lazy" class="page" src="..\novel\pages\PAGE4.jpg" alt="page 4">
+                <img id="PAGE5" loading="lazy" class="page" src="..\novel\pages\PAGE5.jpg" alt="page 5">
+                <img id="PAGE6" loading="lazy" class="page" src="..\novel\pages\PAGE6.jpg" alt="page 6">
+                <img id="PAGE7" loading="lazy" class="page" src="..\novel\pages\PAGE7.jpg" alt="page 7">
+                <img id="PAGE8" loading="lazy" class="page" src="..\novel\pages\PAGE8.jpg" alt="page 8">
+                <img id="PAGE9" loading="lazy" class="page" src="..\novel\pages\PAGE9.jpg" alt="page 9">
+                <img id="PAGE10" loading="lazy" class="page" src="..\novel\pages\PAGE10.jpg" alt="page 10">
             </div>
         </main>
     </div>

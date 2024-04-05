@@ -25,12 +25,12 @@ $act = 3;
             <?php include '../php/view_components/action-bar.php';?>
 
             <div class="comicPages">
-                <img id="PAGE21" class="page" src="..\novel\pages\PAGE21.jpg" alt="page 21"><br>
-                <img id="PAGE22" loading="lazy" class="page" src="..\novel\pages\PAGE22.jpg" alt="page 22"><br>
-                <img id="PAGE23" loading="lazy" class="page" src="..\novel\pages\PAGE23.jpg" alt="page 23"><br>
-                <img id="PAGE24" loading="lazy" class="page" src="..\novel\pages\PAGE24.jpg" alt="page 24"><br>
-                <img id="PAGE25" loading="lazy" class="page" src="..\novel\pages\PAGE25.jpg" alt="page 25"><br>
-                <img id="PAGE26" loading="lazy" class="page" src="..\novel\pages\PAGE26.jpg" alt="page 26"><br>
+                <img id="PAGE21" class="page" src="..\novel\pages\PAGE21.jpg" alt="page 21">
+                <img id="PAGE22" loading="lazy" class="page" src="..\novel\pages\PAGE22.jpg" alt="page 22">
+                <img id="PAGE23" loading="lazy" class="page" src="..\novel\pages\PAGE23.jpg" alt="page 23">
+                <img id="PAGE24" loading="lazy" class="page" src="..\novel\pages\PAGE24.jpg" alt="page 24">
+                <img id="PAGE25" loading="lazy" class="page" src="..\novel\pages\PAGE25.jpg" alt="page 25">
+                <img id="PAGE26" loading="lazy" class="page" src="..\novel\pages\PAGE26.jpg" alt="page 26">
             </div>
         </main>
     </div>
