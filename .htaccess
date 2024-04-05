@@ -2,6 +2,3 @@
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)/?$ $1.php [L]
-
-# Rewrite act1-1 to act1-1.php internally
-RewriteRule ^act1-1/?$ act1-1.php [L]
