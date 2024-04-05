@@ -28,7 +28,7 @@ card-description{
 }
 
 inner-card{
-    grid-template-rows: 38% 4rem auto auto;
+    grid-template-rows: 38% 4rem 6.5rem auto;
     gap: 1rem;
 
     align-items: center;
@@ -81,6 +81,8 @@ inner-card a{
 }
 
 a .card-button{
+    
+    width: 85%;
     height: fit-content;
     font-size: 14pt;
 
