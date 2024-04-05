@@ -145,6 +145,7 @@ chunk p{
 }
 
 .entity{
+    backface-visibility: hidden;
     position: fixed;
     z-index: 0;
     pointer-events: none;
@@ -170,11 +171,6 @@ chunk p{
 .devoidLogoMAIN{
     width: 45rem;
 }
-
-footer{
-    height: 10rem;
-}
-
 
 @media screen and (max-width: 1200px) {
     .devoidLogoMAIN {
@@ -233,5 +229,8 @@ footer{
 @media screen and (max-width: 22rem) {
     main {
         padding: 0rem;
+    }
+    .devoidLogo{
+        width: 85vw;
     }
 }
