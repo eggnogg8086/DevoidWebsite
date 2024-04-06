@@ -34,7 +34,7 @@ handle button{
   font-family: "DM Sans", sans-serif;
   font-size: small;
 
-  background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #2e9fff29 100%);
+  background: linear-gradient(0deg, rgb(0 0 0 / 70%) 0%, #2e9dff58 100%);
 }
 
 banner{
@@ -214,8 +214,12 @@ div:has(>.novelNavBtn):hover, a:has(>.novelNavBtn):hover{
   }
   
   container{
-    padding: 1rem;
-    background: linear-gradient(0deg, rgb(30, 30, 30) 0%, rgba(72,164,198) 63%, rgba(39,40,74) 100%);
+    padding: 1rem;    
+    backdrop-filter: blur(7.9px);
+    background: linear-gradient(0deg, 
+    rgba(0, 0, 0, 0.8) 0%, 
+    rgba(50, 116, 140, 0.8) 63%, 
+    rgba(38, 39, 76, 0.8) 100%);
   }
   main{
     grid-template-columns:unset;

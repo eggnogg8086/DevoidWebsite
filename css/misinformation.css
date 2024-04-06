@@ -1,19 +1,14 @@
-.main-container:last-child{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+.misinformationFacebook p:first-of-type{
+    margin-top: 0;
 }
-
-.main-container p{
-    text-align: left;
-    font-size: 24px;
+.misinformationFacebook p:last-of-type{
+    margin-bottom: 0;
 }
-
 
 .misinformationFacebook{
-    margin: 4rem;
     text-align: center;
-
+    max-width: 60rem;
+    margin: auto;
 }
 .misinformationFacebook-container{
     display: flex;
@@ -23,6 +18,7 @@
     font-size: 20px;
 }
 .misinformationFacebook-partners{
+    margin: 3rem 0;
     display: grid;
     grid-template-columns: repeat(3, min-content);
     gap: 6rem;
@@ -48,22 +44,23 @@
 .misinformationConclusion span{
     font-weight: 800;
 }
-@media screen and (max-width: 70rem) {
-    .main-container{
-        padding: 1rem;
-        margin: 0 2rem;
-    }
+
+.misinformationFacebook-sites a{
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    justify-content: center;
 }
+
 @media screen and (max-width: 60rem) {
     .misinformationFacebook-partners{
-        display: grid;
         grid-template-rows: repeat(3, min-content);
         grid-template-columns: auto;
         gap: 3rem;
     }    
-    .misinformationFacebook-sites{
-        display: grid;
-        grid-template-rows: 1fr min-content;
+    .misinformationFacebook-sites a{
         max-width: 20rem;
+    }
+    .factcheckerLogo{
+        width: 100%;
     }
 }

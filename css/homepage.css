@@ -109,6 +109,11 @@ a .card-button:active{
     color: var(--card-button-color);
 }
 
+.button-articles{
+    max-width: 10rem;
+    margin-bottom: 2rem;
+}
+
 main{
     padding: 3rem;
 }

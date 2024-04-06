@@ -91,6 +91,7 @@ dropdown{
 
 dropdown a{
     background: var(--background);
+    backdrop-filter: blur(2px);
     width: 11rem;
     font-size: 10pt;
     z-index: 9;

@@ -2,6 +2,7 @@
     <nav class="homepage">
         <nav-item class="dropdown-container">
                 <dropdown>
+                    <a href="articles/">ALL ARTICLES</a>
                     <a href="mirror/">THE VOID AS THE MIRROR TO REALITY</a>
                     <a href="misinformation/">MISINFORMATION DURING THE 2022 ELECTIONS: A GIST</a>
                     <a href="future/">FOR FUTURE VOTERS</a>

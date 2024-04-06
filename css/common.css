@@ -32,7 +32,8 @@ body{
 
 .devoidLogo {
     height: 4rem;
-    margin-left: -1.9rem;
+    max-width: 80vw;
+    margin-left: -0.6rem;
 }
 
 main{

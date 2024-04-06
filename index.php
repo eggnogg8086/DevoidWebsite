@@ -56,7 +56,7 @@
                               deVOID creates a fictional digital world where one can navigate that space like a social media network universe with planet-like spheres called Entities. The Void is the social media network and the Entities are the profiles and social circles The base of general knowledge is 
                             </card-description>
                             <a href="mirror/">
-                                <button class="card-button">see more</button>
+                                <button class="card-button">read</button>
                             </a>
                         </inner-card>
                     </card>
@@ -67,7 +67,7 @@
                                 Fake news is not an entirely new concept, especially when it comes to political matters. Given the state of the Philippines and its history with elections, it is increasingly so that misinformation prevails,and even now with troll farms being incentivized to create fake news 
                             </card-description>
                             <a href="misinformation/">
-                                <button class="card-button">see more</button>
+                                <button class="card-button">read</button>
                             </a>
                         </inner-card>
                     </card>
@@ -78,11 +78,15 @@
                                 It's crazy how both in real life and online, our country is tangled up in this web of misinformation. It feels like this giant monster we can't seem to defeat, right? It's overwhelming to think about how the system is failing to keep things truthful, and how many people are being misled 
                             </card-description>
                             <a href="future/">
-                                <button class="card-button">see more</button>
+                                <button class="card-button">read</button>
                             </a>
                         </inner-card>
                     </card>
+
                 </cardholder>
+                <a href="articles/">
+                    <button class="card-button button-articles">see more</button>
+                </a>
             </chunk>
         </contents>
     </main>
