@@ -55,17 +55,17 @@
             case 'a1':
                 if(redirect) window.location.href = "act1";
                 for (let index = 1; index <= 10; index++) 
-                pages.add(new Option("PAGE "+index, "PAGE"+index), null);
+                    pages.add(new Option("PAGE "+index, "PAGE"+index), null);
             break;
             case 'a2':
                 if(redirect) window.location.href = "act2";
                 for (let index = 11; index <= 20; index++) 
-                pages.add(new Option("PAGE "+index, "PAGE"+index), null);                    
+                    pages.add(new Option("PAGE "+index, "PAGE"+index), null);                    
             break;
             case 'a3':
                 if(redirect) window.location.href = "act3";
                 for (let index = 21; index <= 26; index++) 
-                pages.add(new Option("PAGE "+index, "PAGE"+index), null);
+                    pages.add(new Option("PAGE "+index, "PAGE"+index), null);
             break;
             case 'a4':
                 if(redirect) window.location.href = "act4";
@@ -91,6 +91,11 @@
             selectElement.selectedIndex -= 1;
             selectPage(selectElement.selectedIndex);
         }
+        else if(selectElement.selectedIndex == 0){
+            
+            window.location.href = "<?php /* TODO CSRF check */ if($act > 1) echo "act".($act-1); else echo "#";?>";
+        }
+
     }    
     function nextPage(){
         var selectElement = document.getElementById("pagenumber");
@@ -99,25 +104,25 @@
             selectElement.selectedIndex += 1;
             selectPage(selectElement.selectedIndex);
         }
+        else if(selectElement.selectedIndex == selectElement.options.length - 1){
+            window.location.href = "<?php /* TODO CSRF check */ if($act < 4) echo "act".($act+1); else echo "#end";?>";
+        }
     }
 
     function toggleComments(){
         switch (currentState) {
             case ActionBarState.open:
-                showCommentsButton.textContent = "see comments";
-                
+                showCommentsButton.textContent = "see comments";        
                 box.style.bottom = "";
                 currentState = ActionBarState.closed;
                 break;
             case ActionBarState.closed:
                 showCommentsButton.textContent = "hide comments";
-
                 box.style.bottom = "0px";
                 currentState = ActionBarState.open;
                 break;
             case ActionBarState.hidden:
                 break;
-        
             default:
                 break;
         }
@@ -142,14 +147,11 @@
                 break;
             case ActionBarState.hidden:
                 currentState = ActionBarState.closed;
-                
-                
                 showActionBarButton.textContent = "hide"
                 showCommentsButton.style.display = '';
                 container.style.opacity = "";
                 box.style.bottom = "";
                 break;
-        
             default:
                 break;
         }
