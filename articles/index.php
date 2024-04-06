@@ -27,7 +27,7 @@
             <inner-card>
                 <article-title>THE VOID AS THE MIRROR TO REALITY</article-title>
                 <article-description>deVOID creates a fictional digital world where one can navigate that space like a social media network universe with planet-like spheres called Entities. The Void is the social media network and the Entities are the profiles and social circles The base of general knowledge is</article-description>
-                <a href="../misinformation/">
+                <a href="../mirror/">
                     <button class="card-button">SEE MORE</button>
                 </a>
             </inner-card>
@@ -47,7 +47,7 @@
             <inner-card>
                 <article-title>FOR FUTURE VOTERS</article-title>
                 <article-description>It's crazy how both in real life and online, our country is tangled up in this web of misinformation. It feels like this giant monster we can't seem to defeat, right? It's overwhelming to think about how the system is failing to keep things truthful, and how many people are being misled</article-description>
-                <a href="../misinformation/">
+                <a href="../future/">
                     <button class="card-button">SEE MORE</button>
                 </a>
             </inner-card>
