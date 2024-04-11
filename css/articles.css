@@ -106,6 +106,10 @@ content{
     max-width: 60rem;
 }
 
+.navigation{
+    padding: var(--navigation-padding-value) 0 !important;
+}
+
 @media screen and (max-width: 60rem) {
     columns{
         grid-template-columns: 1fr;

@@ -3,7 +3,7 @@
     --background: #383957c2;
     --dropdown-item-border-radius: 1rem;
     --navigation-padding-value: 3rem;
-    --navigation-padding: var(--navigation-padding-value) 0;
+    --navigation-padding: var(--navigation-padding-value) 10vw;
 }
 
 .devoidLogoLINK{

@@ -17,10 +17,10 @@ $act = 3;
 </head>
 <?php include '../php/analytics.php';?>
 <body>
+    <header>
+        <?php include '../php/view_components/navbar.php';?>
+    </header>
     <div class="body-container">
-        <header>
-            <?php include '../php/view_components/navbar.php';?>
-        </header>
         <main>
             <?php include '../php/view_components/action-bar.php';?>
 
