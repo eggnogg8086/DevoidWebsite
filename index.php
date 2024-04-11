@@ -34,13 +34,13 @@
                 <img class="devoidLogoMAIN" src="../iteration2/images/devoidLogo.svg" alt="devoidLogo">
                 <p>Witness a young girl's journey as she navigates through the divides in the parasocial space, fueled by election-related misinformation in an emulation of the digital reality.</p>
                 <div class="main-buttons">
-                    <a href="novel/act1">
+                    <a href="summary">
                         <button>summary</button>
                     </a>
                     <a href="novel/act1">
                         <button>Read Novel</button>
                     </a>
-                    <a href="novel/act1">
+                    <a href="characters">
                         <button>characters</button>
                     </a>
                 </div>
