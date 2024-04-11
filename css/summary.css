@@ -1,0 +1,89 @@
+entity{
+    width: 30rem;
+    height: 30rem;
+    background-image: 
+    url(../images/noise.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    grid-area: 1 / 1 / 4 / 2;
+    position: absolute;
+    margin-top: -10rem;
+}
+
+synopsis{
+    display: block;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(200, 200, 200, 0.5) 2%, rgba(72, 164, 198, 0.45) 28%, rgba(39, 40, 74, 0) 67%);
+    padding: 4rem;
+    border-radius: 1rem;
+    max-width: 50rem;
+    
+    font-size: 16pt;
+    font-weight: 200;
+
+    margin: auto;
+}
+
+large-banner, title{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 32pt;    
+    text-transform: uppercase;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+card{
+    gap: 1rem;
+    font-weight: 200;
+    margin: 0 1.5rem;
+    display: grid;
+    border-radius: var(--card-border-radius);
+    max-width: 45rem;
+    justify-items: center;
+
+
+    /* margin: auto; */
+    /* padding: 5rem; */
+}
+
+inner-card{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    z-index: 1;
+    padding: 2.5rem 3rem;
+    display: grid;
+    gap: 1rem;
+
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+
+article-description{
+    height: 5rem;
+
+    mask-image: linear-gradient(black 38%, rgba(0, 0, 0, 0) 93%);
+    overflow: hidden;
+}
+
+inner-card a{
+    text-align: end;
+}
+
+.swiper-wrapper{padding: 4rem;}
+
+
+
+.swiper-slide, .swiper-slide-next, .swiper-slide-prev{
+    opacity: 20%;
+    transition: opacity .5s ease-in-out !important;
+}
+
+.swiper-slide-active{
+    opacity: 100%;
+}

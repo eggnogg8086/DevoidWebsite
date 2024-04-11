@@ -45,7 +45,7 @@ main{
     margin: 0 var(--article-header-padding-ratio-outer);
     padding: var(--article-header-padding-ratio-inner);
     padding-top: 3rem;
-    background: linear-gradient(0deg, rgba(200, 200, 200, 0.5) 0%, rgba(72,164,198,0.45) 63%, rgba(39,40,74,0) 100%);
+    background: var(--background-gradient);
     position: relative;
 
     border-radius: var(--border-radius);
@@ -106,15 +106,6 @@ content{
     max-width: 60rem;
 }
 
-body{
-    background: 
-        url(../images/starsBg.svg), 
-        linear-gradient(0deg, rgba(30, 29, 46, 1) 0%, rgba(39, 40, 74, 1) 69%, rgba(7, 9, 31, 1) 100%);
-    background-size: 900px, 100% auto;
-    background-repeat: repeat, no-repeat;
-
-    margin-bottom: 7rem;
-}
 @media screen and (max-width: 60rem) {
     columns{
         grid-template-columns: 1fr;

@@ -1,0 +1,118 @@
+card-container{
+    display: grid;
+    justify-content: center;
+}
+large-banner{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 42pt;    
+    text-transform: uppercase;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+title{
+    display: block;
+    font-size: 32pt;    
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+card{
+    gap: 2rem;
+    font-weight: 200;
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: min-content auto;
+    max-width: 45rem;
+    justify-items: center;
+    
+    border-radius: 3rem;
+    outline: rgba(255, 255, 255, 0.46) 1pt solid;
+    padding: 2.5rem 3rem;
+    min-height: 13rem;
+    align-items: center;
+    background: linear-gradient(rgba(7, 9, 31, 0.46) 0%, rgba(128, 128, 156, 0.46) 100%);
+
+    position: relative;
+}
+
+card img{
+    margin-bottom: -8.9rem;
+    max-height: 25rem;
+    z-index: 2;
+    opacity: 1;
+}
+
+card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+card:nth-of-type(1)::before {
+    background-image: url(../images/charKim.png);
+    background-position: 100% 13%;
+}
+card:nth-of-type(2)::before {
+    background-image: 
+    url(../images/charMari.png)
+    ,
+    url(../images/charMima.png)
+    ;
+    background-position: 
+    -15% 4%
+    ,
+    -2% 7%
+    ;
+}
+
+card:nth-of-type(3)::before {
+    background-image: url(../images/charMichael.png);
+    background-position: 100% 13%;
+}
+card:nth-of-type(2) {
+
+    grid-template-columns: auto min-content;
+}
+
+card:nth-of-type(3) {
+    background: linear-gradient(rgba(7, 9, 31, 0.46) 0%, rgba(128, 128, 156, 0.46) 100%);
+
+}
+
+card:nth-of-type(2) img{
+    grid-area: 1 / 2 / 2 / 2;
+}
+card:nth-of-type(2) img:nth-child(1){
+    margin-right: -8rem;
+}
+card:nth-of-type(2) img:nth-child(2){
+    margin-right: 7rem;
+}
+
+inner-card{
+    z-index: 1;
+    display: grid;
+    gap: 1rem;
+    height: min-content;
+}
+
+
+description{
+    font-size: 14pt;
+    max-width: 26rem;
+}
+
+inner-card a{
+    text-align: end;
+}

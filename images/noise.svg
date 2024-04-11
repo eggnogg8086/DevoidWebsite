@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="200px" width="200px">
+  <defs>
+    <filter id="noiseFilter" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".5" numOctaves='3' result="turbulence"/>
+
+      <feComposite operator="atop" in2="SourceGraphic" result="monoNoise"/>
+      <feBlend in="SourceGraphic" in2="monoNoise" mode="overlay" />
+      <feColorMatrix type="saturate" in="SourceGraphic" values="1.2"/>
+
+    </filter>
+    <radialGradient id="0" gradientTransform="translate(0 0) scale(1, 1)">
+      <stop offset="0%" stop-color="#EAF45C"/>
+
+      <stop offset=".975%" stop-color="#ebf15d"/>
+      <stop offset="1.95%" stop-color="#ecee5f"/>
+
+      <stop offset="3.9%" stop-color="#EEE961"/>
+
+      <stop offset="7.575%" stop-color="#f6df52"/>
+      <stop offset="11.25%" stop-color="#fcd452"/>
+
+      <stop offset="18.6%" stop-color="#FFC073"/>
+      
+      <stop offset="31.95%" stop-color="#faa277"/>
+      <stop offset="45.3%" stop-color="#f28480"/>      
+      
+      <stop offset="72%" stop-color="#C95295"/>
+      
+      <stop offset="74.75%" stop-color="#a650947f"/>
+      <stop offset="77.5%" stop-color="#854b8d3f"/>      
+      
+      <stop offset="83%" stop-color="rgba(63, 65, 120, 0)"/>
+      
+      <stop offset="87.5%" stop-color="rgba(63, 48, 73, 0)"/>
+      <stop offset="91.5%" stop-color="rgba(45, 34, 44, 0)"/>      
+      
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect fill="url(#0)" height="100%" width="100%"/> 
+  <!-- filter="url(#noiseFilter)"/> -->
+</svg>

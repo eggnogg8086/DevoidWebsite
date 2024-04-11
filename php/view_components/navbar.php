@@ -18,8 +18,8 @@
         <nav-item class="dropdown-container" class="dropdown-container">
             <dropdown>
                 <a href="../novel/act1">READ</a>
-                <a href="">SUMMARY</a>
-                <a href="">CHARACTERS</a>
+                <a href="../summary">SUMMARY</a>
+                <a href="../characters">CHARACTERS</a>
             </dropdown>
             <a href="#">Novel</a>
         </nav-item>                    

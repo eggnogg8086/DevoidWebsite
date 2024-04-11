@@ -1,5 +1,6 @@
 :root{
-    --background-gradient: linear-gradient(0deg, rgba(200, 200, 200, 0.75) 0%, rgba(72,164,198,0.45) 63%, rgba(39,40,74,0) 100%);
+    --background-gradient: linear-gradient(0deg, rgba(200, 200, 200, 0.5) 0%, rgba(72,164,198,0.45) 63%, rgba(39,40,74,0) 100%);
+
 }
 
 *::-webkit-scrollbar {
@@ -18,7 +19,7 @@
 
 body{
     margin: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
     backface-visibility: hidden;
     background: 
         url(../images/starsBg.svg),
