@@ -87,7 +87,7 @@ action-bar{
   align-self: start;
   width: 35rem;
   transition: all .2s ease-in-out;
-
+  z-index: 30;
 }
 
 container{
