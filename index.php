@@ -13,11 +13,6 @@
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/common.css">
-    <style id="customStyles">
-        .entity{
-            transform: translateY(0);
-        }
-    </style>
 </head>
 <?php include 'php/analytics.php';?>
 <body>
@@ -92,22 +87,10 @@
     </main>
 
     <script>
-        const customStyles = document.getElementById('customStyles');
-        const styleSheet = customStyles.sheet;
-
-        let ruleIndex = -1;
-        for (let i = 0; i < styleSheet.cssRules.length; i++) {
-            if (styleSheet.cssRules[i].selectorText === '.entity') {
-            ruleIndex = i;
-            break;
-            }
-        }
-
-        addEventListener("scroll", (event) => {
-            let movement = window.scrollY*-2.05;
-            styleSheet.cssRules[0].style.transform = "translateY(" + movement + "px)";
-        });
-
+        document.body.style.setProperty('--document-height', document.body.offsetHeight*-1+"px");
+        window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+        }, false);
     </script>
 </body>
 </html>

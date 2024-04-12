@@ -50,7 +50,8 @@
         <div class="swiper-slide">
             <card>
                 
-                
+                <img src="../images/pink.svg" alt="">
+                <img src="../images/WEBSITE SCRATCH PAD_entityPink.svg" alt="">
                 <inner-card>
                     <title>ACT 1</title>
                     <description>Hanging out with friends Mima and Mari, Kim shops for outfits for the final presidential rally just before the elections. During a video call on her favorite social media app, Eivod, they discuss Mari's date with a man supporting their opposing presidential candidate, Mariano Ginto, the son of a notorious dictator. As Kim falls asleep during the call, she enters a dark void guided by her personal guardian, exploring the base of general knowledge, guardians with various responsibilities to enhance user experience, and personal content curation though entities.</description>
@@ -66,10 +67,10 @@
                 
                 <inner-card>
                     <title>ACT 2</title>
-                    <description>Hanging out with friends Mima and Mari, Kim shops for outfits for the final presidential rally just before the elections. During a video call on her favorite social media app, Eivod, they discuss Mari's date with a man supporting their opposing presidential candidate, Mariano Ginto, the son of a notorious dictator. As Kim falls asleep during the call, she enters a dark void guided by her personal guardian, exploring the base of general knowledge, guardians with various responsibilities to enhance user experience, and personal content curation though entities.</description>
+                    <description>In the digital space, Kim and her friends find fake info about Elinor Rosa in rose-colored glass shards. She tracks it to an entity that resembles a chamber made of rose-colored glass, comprised by a group of Ginto supporters who spread false content, deface opponents, and claim it's freedom of expression. Kim learns reporting individually is usually ignored, so they now report as a group for action to be taken.</description>
                 </inner-card>
                 <a href="../novel/act1">
-                    <button class="card-button">READ ACT 1</button>
+                    <button class="card-button">READ ACT 2</button>
                 </a>
             </card>
         </div>
@@ -79,10 +80,10 @@
                 
                 <inner-card>
                     <title>ACT 3</title>
-                    <description>Hanging out with friends Mima and Mari, Kim shops for outfits for the final presidential rally just before the elections. During a video call on her favorite social media app, Eivod, they discuss Mari's date with a man supporting their opposing presidential candidate, Mariano Ginto, the son of a notorious dictator. As Kim falls asleep during the call, she enters a dark void guided by her personal guardian, exploring the base of general knowledge, guardians with various responsibilities to enhance user experience, and personal content curation though entities.</description>
+                    <description>The guardians and a council from the base of general knowledge tackle misinformation, reducing defaced imagery but facing new challenges from anonymous users spreading false content. Kim investigates a fabricated image showing armed supporters of her candidate in a school. Anecdotes reveal the truth: the school is makeshift in the mountains, where students asserting their rights are labeled rebels by the military. Kim emphasizes the importance of multiple sources to validate truth and encourages spreading this truth in the void.</description>
                 </inner-card>
                 <a href="../novel/act1">
-                    <button class="card-button">READ ACT 1</button>
+                    <button class="card-button">READ ACT 3</button>
                 </a>
             </card>
         </div>
@@ -92,10 +93,10 @@
                 
                 <inner-card>
                     <title>ACT 4</title>
-                    <description>Hanging out with friends Mima and Mari, Kim shops for outfits for the final presidential rally just before the elections. During a video call on her favorite social media app, Eivod, they discuss Mari's date with a man supporting their opposing presidential candidate, Mariano Ginto, the son of a notorious dictator. As Kim falls asleep during the call, she enters a dark void guided by her personal guardian, exploring the base of general knowledge, guardians with various responsibilities to enhance user experience, and personal content curation though entities.</description>
+                    <description>Kim discovers a disturbing image in the void, a symbol of supporters celebrating their right to spread content that they think is right regardless of it being factual or not. Her friends are divided: some help the guardians remove harmful users, while others protect the truth council. Kim confronts indifferent users who have accepted the chaos, realizing how the void has transformed from a place of unity to a battleground for political agendas. Together, they take action to suppress harmful elements, knowing it's just the beginning of a larger change needed in both the void and the real world.</description>
                 </inner-card>
                 <a href="../novel/act1">
-                    <button class="card-button">READ ACT 1</button>
+                    <button class="card-button">READ ACT 4</button>
                 </a>
             </card>
         </div>

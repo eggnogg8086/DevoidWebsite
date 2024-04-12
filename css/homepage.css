@@ -1,3 +1,18 @@
+.entity{
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+
+    
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes rotate {
+    to {
+      transform: translateY(var(--document-height));
+    }
+  }
 :root{
     --card-button-color: #2b1459;
     --card-button-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
@@ -42,19 +57,19 @@ inner-card{
 card:nth-child(1) inner-card {    
     background: 
     linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(0,0,0,0) 85%),
-    url("../images/coverMirror.jpg");
+    url("../images/hcoverMirror.jpg");
 }
 
 card:nth-child(2) inner-card {     
     background: 
     linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(0,0,0,0) 85%),
-    url("../images/coverMisinfo.jpg");
+    url("../images/hcoverMisinfo.jpg");
 }
 
 card:nth-child(3) inner-card {        
     background: 
     linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(0,0,0,0) 85%),
-    url("../images/coverFuture.jpg");
+    url("../images/hcoverFuture.jpg");
     background-position-x: 80% !important;
 }
 
