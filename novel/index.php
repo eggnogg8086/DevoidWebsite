@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
-    <head>
+  <head>
+    <link rel="icon" type="image/x-icon" href="../iteration2/images/devoidIcon.svg">
   		<title>deVOID</title>
   			<meta charset="UTF-8" />
   			<meta http-equiv="refresh" content="0; URL=act1" />
