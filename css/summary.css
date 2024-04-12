@@ -86,7 +86,7 @@ description{
     justify-items: center;
 }
 
-.swiper-slide-next, .swiper-slide-prev{
+.swiper-slide-visible{
     opacity: 20%;
     user-select: none; 
 }

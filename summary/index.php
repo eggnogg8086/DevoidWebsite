@@ -138,6 +138,7 @@
             // when window width is >= 320px
             960: {
                 spaceBetween: -300,
+                slidesPerView: 2,
             }
         },
 
