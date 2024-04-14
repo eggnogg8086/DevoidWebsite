@@ -50,7 +50,7 @@
                     </description>
                 </inner-card>
             </card>
-            <card>
+            <!-- <card>
                 <img src="../images/charMichael.png" alt="">
                 <inner-card>
                     <title>Michael Viray</title>
@@ -58,7 +58,7 @@
                         A software engineer whose family’s career focused on journalism in the 70’s and who have been victims of the media blackout and censorship of the criticisms toward Lando Ginto, Mariano Ginto’s father who had been the president during that time. He was a user who has spent a lot of time in the Void, and had seen all the changes that occurred within the platform, making him apathetic to what he’s seeing.
                     </description>
                 </inner-card>
-            </card>
+            </card> -->
         </card-container>
 
 

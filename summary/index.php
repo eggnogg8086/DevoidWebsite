@@ -42,7 +42,7 @@
 
         <div class="swiper">
             <div class="swiper-wrapper">
-                <card class="swiper-slide">
+                <!-- <card class="swiper-slide">
                     <img src="../images/green.webp" alt="">
                     <inner-card>
                         <title>ACT 4</title>
@@ -57,6 +57,22 @@
                     </inner-card>
                     <a href="../novel/act4">
                         <button class="card-button">READ ACT 4</button>
+                    </a>
+                </card> -->
+                <card class="swiper-slide">
+                    <img src="../images/white.webp" alt="">
+                    <inner-card>
+                        <title>ACT 3</title>
+                        <description>The guardians and a council from the base of general knowledge tackle
+                            misinformation, reducing defaced imagery but facing new challenges from anonymous users
+                            spreading false content. Kim investigates a fabricated image showing armed supporters of
+                            her candidate in a school. Anecdotes reveal the truth: the school is makeshift in the
+                            mountains, where students asserting their rights are labeled rebels by the military. Kim
+                            emphasizes the importance of multiple sources to validate truth and encourages spreading
+                            this truth in the void.</description>
+                    </inner-card>
+                    <a href="../novel/act3">
+                        <button class="card-button">READ ACT 3</button>
                     </a>
                 </card>
                 <card class="swiper-slide">
@@ -88,22 +104,6 @@
                     </inner-card>
                     <a href="../novel/act2">
                         <button class="card-button">READ ACT 2</button>
-                    </a>
-                </card>
-                <card class="swiper-slide">
-                    <img src="../images/white.webp" alt="">
-                    <inner-card>
-                        <title>ACT 3</title>
-                        <description>The guardians and a council from the base of general knowledge tackle
-                            misinformation, reducing defaced imagery but facing new challenges from anonymous users
-                            spreading false content. Kim investigates a fabricated image showing armed supporters of
-                            her candidate in a school. Anecdotes reveal the truth: the school is makeshift in the
-                            mountains, where students asserting their rights are labeled rebels by the military. Kim
-                            emphasizes the importance of multiple sources to validate truth and encourages spreading
-                            this truth in the void.</description>
-                    </inner-card>
-                    <a href="../novel/act3">
-                        <button class="card-button">READ ACT 3</button>
                     </a>
                 </card>
 

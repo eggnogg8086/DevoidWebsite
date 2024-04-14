@@ -16,14 +16,14 @@
                 <option value="a1" <?php if($act == 1) echo "selected"?>>ACT 1</option>
                 <option value="a2" <?php if($act == 2) echo "selected"?>>ACT 2</option>
                 <option value="a3" <?php if($act == 3) echo "selected"?>>ACT 3</option>
-                <option value="a4" <?php if($act == 4) echo "selected"?>>ACT 4</option>
+                <!-- <option value="a4" <?php //if($act == 4) echo "selected"?>>ACT 4</option> -->
             </select>
             <select title="page" id="pagenumber" onchange="selectPage()">
             </select>
             <div onclick="nextPage()">
                 <img class="novelNavBtn" src="../images/nextPageBtn.svg" alt="nextPage">
             </div>
-            <a href="<?php if($act < 4) echo "act".($act+1);?>"> <img class="novelNavBtn" src="../images/nextActBtn.svg" alt="nextAct"></a>
+            <a href="<?php if($act < 3) echo "act".($act+1);?>"> <img class="novelNavBtn" src="../images/nextActBtn.svg" alt="nextAct"></a>
         </page-selector>
         <?php include '../php/view_components/comments.php';?>
     </container>
@@ -67,11 +67,11 @@
                 for (let index = 21; index <= 26; index++) 
                     pages.add(new Option("PAGE "+index, "PAGE"+index), null);
             break;
-            case 'a4':
-                if(redirect) window.location.href = "act4";
-                for (let index = 27; index <= 38; index++) 
-                    pages.add(new Option("PAGE "+index, "PAGE"+index), null);
-                break;
+            // case 'a4':
+            //     if(redirect) window.location.href = "act4";
+            //     for (let index = 27; index <= 38; index++) 
+            //         pages.add(new Option("PAGE "+index, "PAGE"+index), null);
+            //     break;
     
             default:
                 break;
@@ -105,7 +105,7 @@
             selectPage(selectElement.selectedIndex);
         }
         else if(selectElement.selectedIndex == selectElement.options.length - 1){
-            window.location.href = "<?php /* TODO CSRF check */ if($act < 4) echo "act".($act+1); else echo "#end";?>";
+            window.location.href = "<?php /* TODO CSRF check */ if($act < 3) echo "act".($act+1); else echo "#end";?>";
         }
     }
 
