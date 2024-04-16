@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/x-icon" href="../iteration2/images/devoidIcon.svg">
+    <link rel="icon" type="image/x-icon" href="../iteration3/images/devoidIcon.svg">
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>deVOID</title>
@@ -17,9 +17,9 @@
 </head>
 <?php include 'php/analytics.php';?>
 <body>
-    <img loading="lazy" class="pinkEntity entity" id="pinkEntity1" src="../iteration2/images/entityPink.webp" alt="pinkEntity">
-    <img loading="lazy" class="purpleEntity entity" id="purpleEntity1" src="../iteration2/images/entityPurple.webp" alt="purpleEntity">
-    <img loading="lazy" class="sunsetEntity entity" id="sunsetEntity1" src="../iteration2/images/entitySunset.webp" alt="sunsetEntity">
+    <img loading="lazy" class="pinkEntity entity" id="pinkEntity1" src="../iteration3/images/entityPink.webp" alt="pinkEntity">
+    <img loading="lazy" class="purpleEntity entity" id="purpleEntity1" src="../iteration3/images/entityPurple.webp" alt="purpleEntity">
+    <img loading="lazy" class="sunsetEntity entity" id="sunsetEntity1" src="../iteration3/images/entitySunset.webp" alt="sunsetEntity">
     <header>
         <?php include 'php/view_components/navbar-homepage.php';?>
     </header>
@@ -27,7 +27,7 @@
     <main>
         <contents>
             <chunk>
-                <img class="devoidLogoMAIN" src="../iteration2/images/devoidLogo.svg" alt="devoidLogo">
+                <img class="devoidLogoMAIN" src="../iteration3/images/devoidLogo.svg" alt="devoidLogo">
                 <p>Witness a young girl's journey as she navigates through the divides in the parasocial space, fueled by election-related misinformation in an emulation of the digital reality.</p>
                 <div class="main-buttons">
                     <a href="summary">

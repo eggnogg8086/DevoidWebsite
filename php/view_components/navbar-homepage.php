@@ -12,7 +12,7 @@
                 </a>
             </nav-item>
             <nav-item>
-                <a href="/iteration2/">Home</a>
+                <a href="/iteration3/">Home</a>
             </nav-item>
             <nav-item class="dropdown-container" class="dropdown-container">
                 <dropdown>

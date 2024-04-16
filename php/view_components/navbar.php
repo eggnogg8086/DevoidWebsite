@@ -1,5 +1,5 @@
 <div class="navigation">
-    <a class="devoidLogoLINK" href="/iteration2/"><img class="devoidLogo" src="../images/devoidLogo.svg" alt="devoidLogo"></a>
+    <a class="devoidLogoLINK" href="/iteration3/"><img class="devoidLogo" src="../images/devoidLogo.svg" alt="devoidLogo"></a>
     <nav>
         <nav-item class="dropdown-container">
             <dropdown>
@@ -13,7 +13,7 @@
             </a>
         </nav-item>
         <nav-item>
-            <a href="/iteration2/">Home</a>
+            <a href="/iteration3/">Home</a>
         </nav-item>
         <nav-item class="dropdown-container" class="dropdown-container">
             <dropdown>
