@@ -65,6 +65,7 @@ inner-card{
     gap: 1rem;
     grid-area: 1 / 1 / 2 / 2;
     align-content: center;
+    max-width: 50rem;
 }
 
 description{
@@ -86,7 +87,7 @@ description{
     justify-items: center;
 }
 
-.swiper-slide-visible{
+.swiper-slide-next, .swiper-slide-prev{
     opacity: 20%;
     user-select: none; 
 }

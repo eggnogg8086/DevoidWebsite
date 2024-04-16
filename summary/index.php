@@ -106,6 +106,53 @@
                         <button class="card-button">READ ACT 2</button>
                     </a>
                 </card>
+                <card class="swiper-slide">
+                    <img src="../images/white.webp" alt="">
+                    <inner-card>
+                        <title>ACT 3</title>
+                        <description>The guardians and a council from the base of general knowledge tackle
+                            misinformation, reducing defaced imagery but facing new challenges from anonymous users
+                            spreading false content. Kim investigates a fabricated image showing armed supporters of
+                            her candidate in a school. Anecdotes reveal the truth: the school is makeshift in the
+                            mountains, where students asserting their rights are labeled rebels by the military. Kim
+                            emphasizes the importance of multiple sources to validate truth and encourages spreading
+                            this truth in the void.</description>
+                    </inner-card>
+                    <a href="../novel/act3">
+                        <button class="card-button">READ ACT 3</button>
+                    </a>
+                </card>
+                <card class="swiper-slide">
+                    <img src="../images/entityPink.webp" alt="">
+                    <inner-card>
+                        <title>ACT 1</title>
+                        <description>Hanging out with friends Mima and Mari, Kim shops for outfits for the final
+                            presidential rally just before the elections. During a video call on her favorite social
+                            media app, Eivod, they discuss Mari's date with a man supporting their opposing
+                            presidential candidate, Mariano Ginto, the son of a notorious dictator. As Kim falls
+                            asleep during the call, she enters a dark void guided by her personal guardian,
+                            exploring the base of general knowledge, guardians with various responsibilities to
+                            enhance user experience, and personal content curation though entities.</description>
+                    </inner-card>
+                    <a href="../novel/act1">
+                        <button class="card-button">READ ACT 1</button>
+                    </a>
+                </card>
+                <card class="swiper-slide">
+                    <img src="../images/orange.webp" alt="">
+                    <inner-card>
+                        <title>ACT 2</title>
+                        <description>In the digital space, Kim and her friends find fake info about Elinor Rosa in
+                            rose-colored glass shards. She tracks it to an entity that resembles a chamber made of
+                            rose-colored glass, comprised by a group of Ginto supporters who spread false content,
+                            deface opponents, and claim it's freedom of expression. Kim learns reporting
+                            individually is usually ignored, so they now report as a group for action to be taken.
+                        </description>
+                    </inner-card>
+                    <a href="../novel/act2">
+                        <button class="card-button">READ ACT 2</button>
+                    </a>
+                </card>
 
             </div>
             <div class="swiper-button-prev"></div>
