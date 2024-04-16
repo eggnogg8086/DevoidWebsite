@@ -114,6 +114,7 @@ select, button, container{
 }
 
 page-selector{
+  -webkit-user-select: none;
   user-select: none;
 
   display: grid;
@@ -215,6 +216,7 @@ div:has(>.novelNavBtn):hover, a:has(>.novelNavBtn):hover{
   
   container{
     padding: 1rem;    
+    -webkit-backdrop-filter: blur(7.9px);
     backdrop-filter: blur(7.9px);
     background: linear-gradient(0deg, 
     rgba(0, 0, 0, 0.8) 0%, 

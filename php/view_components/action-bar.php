@@ -1,8 +1,8 @@
 
 <action-bar id="action-bar">   
     <handle>
-        <button onclick="toggleComments()" id="showCommentsButton" style="grid-column: 2;">see comments</button>     
-        <button onclick="toggleActionBar()" id="showActionBar" style="grid-column: 3;">hide</button>     
+        <button onclick="toggleComments()" id="showCommentsButton">see comments</button>     
+        <button onclick="toggleActionBar()" id="showActionBar">hide</button>     
     </handle>
 
     <container id="container">

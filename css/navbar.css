@@ -22,6 +22,14 @@
     grid-template-columns: repeat(3, 12rem);
 }
 
+#showCommentsButton{
+    grid-column: 2
+}
+
+#showActionBar{
+    grid-column: 3
+}
+
 nav{
     display: grid;
     font-family: "Inter Tight", sans-serif;
@@ -91,6 +99,7 @@ dropdown{
 
 dropdown a{
     background: var(--background);
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     width: 11rem;
     font-size: 10pt;

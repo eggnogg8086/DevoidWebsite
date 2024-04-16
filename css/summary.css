@@ -89,6 +89,7 @@ description{
 
 .swiper-slide-next, .swiper-slide-prev{
     opacity: 20%;
+    -webkit-user-select: none; 
     user-select: none; 
 }
 

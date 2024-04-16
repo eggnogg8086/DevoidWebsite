@@ -105,6 +105,7 @@ a .card-button{
     padding: .5rem;
     color: var(--card-button-color);
     border: var(--card-button-color) 1px solid;
+    -webkit-backdrop-filter: unset;
     backdrop-filter: unset;
 
     box-shadow: var(--card-button-shadow);
