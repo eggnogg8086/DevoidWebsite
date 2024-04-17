@@ -6,8 +6,8 @@
     </handle>
 
     <container id="container">
-        <banner>NOW READING</banner>
-        <page-selector>
+        <!-- <banner>NOW READING</banner> -->
+        <page-selector id="page-selector">
             <a href="<?php if($act > 1) echo "act".($act-1);?>"> <img class="novelNavBtn" src="../images/prevActBtn.svg" alt="prevAct"></a>
             <div onclick="previousPage()">
                 <img class="novelNavBtn" src="../images/prevPageBtn.svg" alt="prevPage" >
@@ -31,7 +31,7 @@
 </action-bar>
 
 <script>
-    const orientation = window.matchMedia("(orientation: portrait)")
+    // const orientation = window.matchMedia("(orientation: portrait)")
 
     const ActionBarState = Object.freeze({
         open: 0,
@@ -42,6 +42,7 @@
 
     const box = document.getElementById('action-bar');
     const container = document.getElementById('container');
+    const pageselector = document.getElementById('page-selector');
     const showCommentsButton = document.getElementById('showCommentsButton');
     const showActionBarButton = document.getElementById('showActionBar');
 
@@ -115,11 +116,13 @@
                 showCommentsButton.textContent = "see comments";        
                 box.style.bottom = "";
                 currentState = ActionBarState.closed;
+                pageselector.style.display = "";
                 break;
             case ActionBarState.closed:
                 showCommentsButton.textContent = "hide comments";
                 box.style.bottom = "0px";
                 currentState = ActionBarState.open;
+                pageselector.style.display = "none";
                 break;
             case ActionBarState.hidden:
                 break;
@@ -131,6 +134,9 @@
     function toggleActionBar(){
         switch (currentState) {
             case ActionBarState.open:
+                pageselector.style.display = "";
+
+                
                 currentState = ActionBarState.hidden;
                 showCommentsButton.textContent = "see comments";
                 showActionBarButton.textContent = "show"
@@ -146,6 +152,7 @@
                 box.style.bottom = "var(--action-bar-bottom-offset-hidden)";
                 break;
             case ActionBarState.hidden:
+
                 currentState = ActionBarState.closed;
                 showActionBarButton.textContent = "hide"
                 showCommentsButton.style.display = '';
@@ -157,13 +164,13 @@
         }
     }
 
-    orientation.addEventListener("change", function() {
-        if(orientation.matches){
-            if(currentState == ActionBarState.hidden)
-                container.style.opacity = "0%";
-        }
-        else{
-            container.style.opacity = "";
-        }
-    });
+    // orientation.addEventListener("change", function() {
+    //     if(orientation.matches){
+    //         if(currentState == ActionBarState.hidden)
+    //             container.style.opacity = "0%";
+    //     }
+    //     else{
+    //         container.style.opacity = "";
+    //     }
+    // });
 </script>

@@ -80,9 +80,9 @@
                     </card>
 
                 </cardholder>
-                <a href="articles/">
+                <!-- <a href="articles/">
                     <button class="card-button button-articles">see more</button>
-                </a>
+                </a> -->
             </chunk>
         </contents>
     </main>

@@ -22,14 +22,6 @@
     grid-template-columns: repeat(3, 12rem);
 }
 
-#showCommentsButton{
-    grid-column: 2
-}
-
-#showActionBar{
-    grid-column: 3
-}
-
 nav{
     display: grid;
     font-family: "Inter Tight", sans-serif;
