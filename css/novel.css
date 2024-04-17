@@ -1,7 +1,7 @@
 :root{
   --comments-profile-image-size: 5rem;
   --action-bar-height: 70vh;
-  --action-bar-disqus-height: 100vh;
+  --action-bar-disqus-height: 100svh;
   --action-bar-bottom-offset: calc((var(--action-bar-disqus-height) * -1) - -4.8rem);
   --action-bar-bottom-offset-hidden: calc(var(--action-bar-bottom-offset) - 7.2rem);
   --disqus-height: calc(var(--action-bar-disqus-height) - 7rem);
