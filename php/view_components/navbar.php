@@ -17,7 +17,7 @@
         </nav-item>
         <nav-item class="dropdown-container" class="dropdown-container">
             <dropdown>
-                <a href="../novel/act1/">READ</a>
+                <a href="../novel/act1">READ</a>
                 <a href="../summary/">SUMMARY</a>
                 <a href="../characters/">CHARACTERS</a>
             </dropdown>
