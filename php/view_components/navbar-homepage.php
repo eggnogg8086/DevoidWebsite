@@ -18,7 +18,7 @@
                 <dropdown>
                     <a href="novel/act1">READ</a>
                     <a href="summary/">SUMMARY</a>
-                    <a href="characters">CHARACTERS</a>
+                    <a href="characters/">CHARACTERS</a>
                 </dropdown>
                 <a href="#">Novel</a>
             </nav-item>                    
