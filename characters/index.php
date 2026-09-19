@@ -1,7 +1,7 @@
 <?php include '../php/top_of_page.php';?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100vh;">
 <head>
     <link rel="icon" type="image/x-icon" href="../images/devoidIcon.svg">
     <meta charset="UTF-8">
